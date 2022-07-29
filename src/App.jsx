@@ -20,6 +20,7 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <input type="text" className='input' data-cy="submit" />
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
